@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "detailed:block/machine" }
+    "": { "model": "detailed:block/machine_1" }
   }
 }
