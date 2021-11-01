@@ -1,0 +1,28 @@
+{
+  "credit": "Made with Blockbench",
+  "textures": {
+    "0": "detailed:blocks/tilessgo",
+    "particle": "detailed:blocks/tilessgo"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 13],
+      "to": [16, 19, 13],
+      "faces": {
+        "north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+        "east": {"uv": [1.44444, 0, 11.44444, 16], "texture": "#0"},
+        "south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+        "west": {"uv": [1.53333, 0, 11.53333, 16], "texture": "#0"},
+        "up": {"uv": [0, 3.02222, 16, 13.02222], "texture": "#0"},
+        "down": {"uv": [0, 3.64444, 16, 13.64444], "texture": "#0"}
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [69.25, 0, 0],
+      "translation": [-5.75, 0, -5.25],
+      "scale": [4, 1, 1]
+    }
+  }
+}

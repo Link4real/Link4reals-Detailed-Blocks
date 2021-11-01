@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "detailed:block/tihaus"},
+    "facing=east":  { "model": "detailed:block/tihaus", "y":  90},
+    "facing=south": { "model": "detailed:block/tihaus", "y": 180},
+    "facing=west":  { "model": "detailed:block/tihaus", "y": 270}
+  }
+}

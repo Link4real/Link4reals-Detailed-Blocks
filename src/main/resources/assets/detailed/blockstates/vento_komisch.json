@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "detailed:block/vento_komisch"},
+    "facing=east":  { "model": "detailed:block/vento_komisch", "y":  90},
+    "facing=south": { "model": "detailed:block/vento_komisch", "y": 180},
+    "facing=west":  { "model": "detailed:block/vento_komisch", "y": 270}
+  }
+}

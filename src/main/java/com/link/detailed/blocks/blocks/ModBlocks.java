@@ -23,6 +23,11 @@ public class ModBlocks {
     public static final Block STATUE = new STtautae(FabricBlockSettings.of(Material.METAL).strength(2f));
     public static final Block VENLO = new MeWhen(FabricBlockSettings.of(Material.METAL).strength(2f));
     public static final Block TISIGUE = new MeWhen(FabricBlockSettings.of(Material.METAL).strength(2f));
+    public static final Block TILESSGO = new Tiblock(FabricBlockSettings.of(Material.METAL).strength(2f));
+    public static final Block TIPLANT = new EinBesseresEtwas(FabricBlockSettings.of(Material.PLANT).strength(2f));
+    public static final Block TIHAUS = new Tiblock(FabricBlockSettings.of(Material.PLANT).strength(2f));
+    public static final Block VENTO = new Tiblock(FabricBlockSettings.of(Material.METAL).strength(2f));
+    public static final Block PICTURE = new Tiblock(FabricBlockSettings.of(Material.METAL).strength(2f));
 
 
     public static void registerBlocks() {
@@ -46,5 +51,15 @@ public class ModBlocks {
         Registry.register(Registry.BLOCK, new Identifier(MOD_ID,"venlo"), VENLO);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID,"tisigue"), new BlockItem(TISIGUE, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
         Registry.register(Registry.BLOCK, new Identifier(MOD_ID,"tisigue"), TISIGUE);
+        Registry.register(Registry.BLOCK, new Identifier(MOD_ID,"ti_lessgo_block"), TILESSGO);
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID,"ti_lessgo_block"), new BlockItem(TILESSGO, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID,"tiplant"), new BlockItem(TIPLANT, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
+        Registry.register(Registry.BLOCK, new Identifier(MOD_ID,"tiplant"), TIPLANT);
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID,"tihaus"), new BlockItem(TIHAUS, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
+        Registry.register(Registry.BLOCK, new Identifier(MOD_ID,"tihaus"), TIHAUS);
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID,"vento_komisch"), new BlockItem(VENTO, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
+        Registry.register(Registry.BLOCK, new Identifier(MOD_ID,"vento_komisch"), VENTO);
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID,"picture"), new BlockItem(PICTURE, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
+        Registry.register(Registry.BLOCK, new Identifier(MOD_ID,"picture"), PICTURE);
     }
 }

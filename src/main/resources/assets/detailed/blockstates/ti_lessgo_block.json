@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "detailed:block/ti_lessgo_block"},
+    "facing=east":  { "model": "detailed:block/ti_lessgo_block", "y":  90},
+    "facing=south": { "model": "detailed:block/ti_lessgo_block", "y": 180},
+    "facing=west":  { "model": "detailed:block/ti_lessgo_block", "y": 270}
+  }
+}
